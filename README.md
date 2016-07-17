@@ -9,7 +9,7 @@ Run this in a terminal:
 ./api.py
 ```
 
-Then open up a web browser and open [http://127.0.0.1:5000]().
+Then open up a web browser and open http://127.0.0.1:5000.
 
 ## Endpoints (and responses):
 
