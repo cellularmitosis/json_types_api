@@ -13,37 +13,37 @@ Then open up a web browser and open [http://127.0.0.1:5000]().
 
 ## Endpoints (and responses):
 
-* /null
+* http://127.0.0.1:5000/null
 
 ```json
 null
 ```
 
-* /nubmer
+* http://127.0.0.1:5000/number
 
 ```json
 3.14159
 ```
 
-* /string
+* http://127.0.0.1:5000/string
 
 ```json
 "Hello, world!"
 ```
 
-* /boolean
+* http://127.0.0.1:5000/boolean
 
 ```json
 true
 ```
 
-* /array
+* http://127.0.0.1:5000/array
 
 ```json
 [2,3,5,7,11,13,17]
 ```
 
-* /object
+* http://127.0.0.1:5000/object
 
 ```json
 {"one": 1, "two": 2, "three": 3}
