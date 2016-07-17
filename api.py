@@ -18,6 +18,7 @@ def root():
 <html>
 <body>
 <ul>
+<li><a href="/empty">(empty response)</a></li>
 <li><a href="/null">JSON null</a></li>
 <li><a href="/number">JSON number</a></li>
 <li><a href="/string">JSON string</a></li>
@@ -28,6 +29,10 @@ def root():
 </body>
 </html>
 """
+
+@app.route("/empty")
+def json_empty():
+	return ('', 200)
 
 @app.route("/null")
 def json_null():
